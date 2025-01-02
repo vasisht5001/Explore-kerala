@@ -1,5 +1,5 @@
 import axios from 'axios';
-export const BaseUrl='https://explore-kerala-backend-gy2i.onrender.com/api'
+export const BaseUrl='http://localhost:5000'
 const instance = axios.create({
     baseURL:BaseUrl,
     // headers: {
